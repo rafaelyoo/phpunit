@@ -2,4 +2,4 @@
 docker build -t img_primeiraimagem .
 
 # Comando para iniciar executar o script
-docker run -it --rm --name my-first-script-docker -v "$PWD/src/app":/usr/src/app -w /usr/src/app img_phpcli81bllseye php main.php
+docker run -it --rm --name my-first-script-docker -v "$PWD/src/app":/usr/src/app -w /usr/src/app img_primeiraimagem php main.php

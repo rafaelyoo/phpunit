@@ -1,9 +1,9 @@
 <?php
 
-echo "RUNNING SCRIPT....";
+echo "======================== COUNTEUDO.TXT ========================";
 echo PHP_EOL;
-$output = shell_exec("ll");
+$output = shell_exec("cat conteudo.txt");
 echo $output;
 echo PHP_EOL;
-echo "END...";
+echo "======================== COUNTEUDO.TXT ========================";
 echo PHP_EOL;
